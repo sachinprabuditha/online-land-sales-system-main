@@ -1,0 +1,73 @@
+/*signup page styles*/
+body {
+  background-color: #efefef;
+}
+.m-container {
+    text-align: center;
+  }
+  .m-container h1 {
+    font-size: 40px;
+    color: black;
+  }
+  .main-title {
+    position: relative;
+    top: 120px;
+  }  
+  .m-types {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px;
+    margin-bottom: 50px;
+  }
+  
+  .m-type img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  #type1 img {
+    border-radius: 10px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  #type2 img {
+    border-radius: 10px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  .m-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .m-btn1,
+  .m-btn2 {
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    /* opacity: 0.9; */
+  
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .m-btn1 {
+    background-color: #e16b62;
+  }
+  
+  .m-btn2 {
+    background-color: #3dc1a7;
+  }
+  
+  .m-btn1:hover,
+  .m-btn2:hover {
+    filter: brightness(95%);
+  }
+  

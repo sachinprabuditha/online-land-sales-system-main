@@ -1,0 +1,26 @@
+.links {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    padding-top: 180px;
+    line-height: 40px;
+}
+.links a {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: block;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 30%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #ada9a9;
+}

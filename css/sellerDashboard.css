@@ -1,0 +1,220 @@
+body {
+    /*background: #43cea2;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #118961); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav_add {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color:#007dc1;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:10px 11px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+}
+.nav_add:hover {
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color:#0061a7;
+}
+.nav_add:active {
+    position:relative;
+    top:1px;
+}
+
+.main_title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xxx-large;
+    color: white
+}
+
+/* Tab System -------------------------------------------------- */
+
+.tabSystem {
+    position: relative;
+    padding-top: 80px;
+}
+
+.tabTitle {
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  /* border: 1px solid #ccc; */
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: white;
+  background-color: rgb(54, 124, 255);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent button {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color:#007dc1;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:10px 11px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+}
+
+.tabcontent button:hover {
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color:#0061a7;
+}
+/* End of tab system */
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    background-color: #fff;
+    width: 80%;
+    padding: 50px;
+}
+.prof_img {
+    padding: 20px;
+    background-color: #dddddd;
+    bottom: 2px solid black;
+    border-radius: 10px;
+}
+.prof_img img{
+    width: 200px;
+    height: 200px;
+}
+.user_details {
+    background-color: #fff;
+    bottom: 2px solid black;
+}
+.text_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.text_area .data{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+
+}
+.details_container button{
+    background-color: rgb(54, 124, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    width: 130px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.details_container form {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ececec;
+}
+.details_container button:hover {
+    opacity: 0.9;
+}
+
+
+
+.user__table {
+    margin: 10px;
+}
+
+.user__table h3 {
+    color: white;
+}
+
+.user__tableHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ad__table {
+    margin: 10px;
+}
+
+#users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #d1d1d1;
+  }
+  
+#users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#users tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+#users tr:hover {
+    background-color: #ddd;}
+  
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #b4b4b4;
+    color: white;
+}
+
+#users button {
+    background-color: #f2f2f2;
+}

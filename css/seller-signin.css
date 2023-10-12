@@ -1,0 +1,107 @@
+/*log in form styles*/
+.lg-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
+  }
+  .bg-image img {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 70px;
+  }
+  
+  .login {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .login h1 {
+    font-size: 33px;
+    color: #757575;
+  }
+  .changeform h3 {
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .formlink1 {
+    color: #407bff;
+  }
+  .formlink1:hover {
+    color: #0051ff;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 380px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .login-form form .form-row input {
+    float: left;
+    width: 45%;
+  }
+  
+  .login-form form input {
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 0px 10px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .login-form form input:hover {
+    border-bottom-color: #dcdcdc;
+  }
+  .login-form form input:focus {
+    outline: none;
+    border-bottom-color: #e8505b;
+  }
+  .btn-div {
+    margin: 0 10%;
+  }
+  .submit-btn {
+    cursor: pointer;
+    background-color: #e8505b;
+    margin-top: 20px;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .submit-btn:hover {
+    opacity: 1;
+  }
+  
+  .formlink2 {
+    color: green;
+  }
+  .formlink2:hover {
+    color: darkgreen;
+  }
+  

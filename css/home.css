@@ -1,0 +1,281 @@
+/* Make sure to have an active internet connection because
+some fonts are imported from google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Pacifico&family=Poppins:wght@400;600&display=swap'); */
+/* font-family: 'Pacifico', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #fff;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    top: 100px;
+    width: 700px;
+    border-radius: 30px;
+    position: relative;
+    margin: auto;
+    padding-top: 130px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .mySlides img {
+    width: 700px;
+    height: 400px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+  
+    padding: 16px;
+    color: rgba(0,0,0,0.8);
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    border-radius: 15px;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: -55px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: -55px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(17,137,97,0.3);
+    border-radius: 15px;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+
+  .beacons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+  }
+
+  .dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border: 2px solid #118961;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover{
+    border:#012319;
+    background-color: #012319;
+    transform: scale(1.1);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+   /* Package Cards sector */
+
+   .city-sector{
+    position: relative;
+    top: 150px;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .poupular{
+    height: auto;
+    width: 100%;
+  }
+
+  .popular p{
+    padding: 20px 20px;
+    font-size: 26px;
+    text-align: left;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #353834;
+  }
+  .city-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    margin-bottom: 200px;
+  }
+
+  .city{
+    position: relative;
+    height: 320px;
+    width: 250px;
+    background-color: whitesmoke;
+    margin: 20px 20px 10px 0;
+    box-shadow: 5px 5px 9px rgba(0,0,0,0.8);
+    overflow: hidden;
+  }
+
+   .city .pic-container{
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-size: cover;
+  }
+
+  .city .pic-container img {
+    height: 320px;
+    width: 300px;
+  }
+
+  .city:hover .pic-container{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .city .city-det .l1{
+    position: absolute;
+    font-size: 18px;
+    background-color: #118961;
+    color: #ccc;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .city .city-det .l1:hover {
+    background-color: #012319;
+    color: #fff;
+  }
+
+.det_con1 , .det_con2 {
+  display: flex;
+  margin-top: 200px;
+}
+
+.det_con1 .img img, .det_con2 .img img {
+  width: 600px;
+  height: 400px;
+}
+.det_con2 {
+  margin-bottom: 50px;
+}
+.cover img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 48%;
+  }
+}
+
+.site_title {
+  position: absolute;
+  left: 370px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s steps(150) infinite;
+  padding-top: 100px;
+}
+
+
+.site_title p {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  color: #012319;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.det_con1 .des .p1 {
+  font-size: 50px;
+  padding: 50px;
+  line-height: 70px;
+}
+.det_con2 .des p {
+  font-size: 20px;
+  padding: 50px;
+  line-height: 20px;
+}
+
+.site_title .first {
+  color: #fff200;
+
+}
+.site_title .second {
+  color: #fff;
+}
