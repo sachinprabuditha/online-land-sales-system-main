@@ -4,9 +4,7 @@
 
 ?>
 
-
 <link rel = "stylesheet" href = "./css/siteMap.css" >
-
 
 <div class="links">
 
@@ -20,7 +18,6 @@
 <a href="./sellerSignup.php">Seller Sign UP</a>
 
 </div>
-
 
 <?php 
 
