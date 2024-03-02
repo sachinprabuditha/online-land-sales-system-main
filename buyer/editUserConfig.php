@@ -23,7 +23,6 @@
         mysqli_close($conn);
 
         header("location: ../buyerDashboard.php");
-
     }
     else {
         header("location: ../index.php");
