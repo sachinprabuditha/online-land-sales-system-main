@@ -38,7 +38,6 @@
   </div>
 </section>
 
-
 <script src="./js/buyerSignup.js"></script>
 
 <?php include("footer.php"); ?>
