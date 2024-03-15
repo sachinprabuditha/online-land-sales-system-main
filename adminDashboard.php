@@ -23,7 +23,6 @@
         $result = mysqli_query($conn, "SELECT COUNT(*) FROM contactus");
         $messageCount = mysqli_fetch_array($result);
         
-        
         echo "<div class='stat__container'>
                 <div class='stat__box'>
                     <h1>". $buyerCount[0] ."</h1>
