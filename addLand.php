@@ -12,8 +12,6 @@
 <link rel="stylesheet" href="./css/sellLands.css">
 
 </head>
-
- 
 	
 <body>
 
@@ -49,7 +47,6 @@
     <input type="submit" class="btn" name="Submit" value="SUBMIT"/>
     </div>
 	
-
   </form>
 
 </div>
