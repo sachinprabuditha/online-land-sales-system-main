@@ -14,7 +14,6 @@ if(isset($_POST['Submit'])) {
     $result = mysqli_query($conn, "INSERT INTO land(l_title,l_location,l_price,l_imgLoc,sellerID,isSold,l_description) 
                                    VALUES('$title','$location','$price','default','$id',0,'$description')");
     
-
     header("location: ../adminDashboard.php");
     exit;
     }
