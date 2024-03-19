@@ -22,7 +22,6 @@ if (isset($_POST["submit"])) {
             exit;
     }
     
-
     $hashedPwd = hash('sha256', $pwd);
 
     $sql = "INSERT INTO buyer (buyerID, b_fname, b_lname, b_dob, b_username, b_imgLoc, role, b_password, b_email) 
@@ -51,8 +50,6 @@ if (isset($_POST["submit"])) {
         echo "<script>alert ('Something went wrong :-(')</script>";
     }
     mysqli_close($conn);
-
-
 
 }
 else {
