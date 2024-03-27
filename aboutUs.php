@@ -5,7 +5,6 @@
 
 <link rel="stylesheet" href="./css/aboutUs.css">
 
-
 <body>
 
 <div class="about">
