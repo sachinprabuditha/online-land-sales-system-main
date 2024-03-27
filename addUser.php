@@ -67,6 +67,5 @@
     }
 ?>
 
-
 <script src="./js/addUser.js"></script>
 <?php include("footer.php"); ?>
