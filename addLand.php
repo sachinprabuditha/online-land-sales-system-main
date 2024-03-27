@@ -6,7 +6,6 @@
     $title = 'Sell Lands'; include("header.php");
     // Check if user is a seller
     include("./admin/adminConfig.php");
-
     ?> 
 
 <link rel="stylesheet" href="./css/sellLands.css">
